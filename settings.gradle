@@ -1,2 +1,3 @@
 rootProject.name = "Android0701_Gradle_AndroidBuildTool"
 include ':app'
+include ':library'

@@ -6,9 +6,14 @@ buildscript {
         google()
         jcenter()
         mavenCentral()
+        //引入本地仓库
+        maven {
+            url uri('./repo') //指定本地maven的路径，在项目根目录下
+        }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.5.3'
+        classpath 'com.afs.example.plugin:exapmplepluginlocal:1.0.0'
     }
 }
 
@@ -17,6 +22,10 @@ allprojects {
         google()
         jcenter()
         mavenCentral()
+        //引入本地仓库
+        maven {
+            url uri('./repo') //指定本地maven的路径，在项目根目录下
+        }
     }
 }
 

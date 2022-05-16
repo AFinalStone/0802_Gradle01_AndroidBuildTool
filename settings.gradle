@@ -1,4 +1,4 @@
-rootProject.name = "Android0701_Gradle_AndroidBuildTool"
+rootProject.name = "0713_Gradle01_AndroidBuildTool"
 include ':app'
 include ':library'
 include ':plugin-example'
